@@ -1,0 +1,36 @@
+body{
+    background-image: url(img/pp.jpg);
+}
+
+.button{
+    background-color: rgba(24, 162, 153, 0.638);
+    width:3cm; 
+    height:35px;
+    color:white;
+    transition: 2s;
+    font-weight: 700px;
+}
+.button:hover{
+    background-color:rgba(121, 228, 255, 0.53);
+    color:black;
+    border-radius: 2cm;
+}
+
+
+.click{
+    padding-top: 120px;
+    padding-left: 350px;
+    text-shadow: 3px 3px 5px black;
+    position: relative;
+
+}
+
+div img{
+    width: 20%;
+    height: 200px;
+    padding: 10px;
+}
+
+.click nav{
+    position: relative;
+}

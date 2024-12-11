@@ -1,0 +1,62 @@
+body{
+    background-image: url(img/pp.jpg);
+}
+
+.container{
+    margin: 100px 0 0 200px;
+    width: 70%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container img{
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255, 0.684);
+    transition: all ease-in-out 0.5s;
+}
+
+.container img:hover{
+    width: 25%;
+
+}
+
+.f{
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    position: absolute;
+    padding-left: 20px;
+    padding-top: -20px;
+}
+
+.button{
+    background-color: rgba(24, 162, 153, 0.638);
+    width:3cm; 
+    height:35px;
+    color:white;
+    transition: 2s;
+    font-weight: 700px;
+}
+.button:hover{
+    background-color:rgba(121, 228, 255, 0.53);
+    color:black;
+    border-radius: 2cm;
+}
+
+
+.click{
+    padding-top: 30px;
+    padding-left: 350px;
+    text-shadow: 3px 3px 5px black;
+    margin: 0;
+
+}
+
+.click nav{
+    position: relative;
+}

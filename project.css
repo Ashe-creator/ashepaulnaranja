@@ -1,0 +1,35 @@
+body{
+    background-image: url(img/pp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button{
+    background-color: rgba(24, 162, 153, 0.638);
+    width:3cm; 
+    height:35px;
+    color:white;
+    transition: 2s;
+    font-weight: 700px;
+}
+.button:hover{
+    background-color:rgba(121, 228, 255, 0.53);
+    color:black;
+    border-radius: 2cm;
+}
+
+
+.click{
+    text-shadow: 3px 3px 5px black;
+    margin: 0;
+    text-align: center;
+
+}
+
+.container p{
+    color: white;
+    background-color: lightgreen;
+    font-size: 18px;
+    text-align: center;
+    text-shadow: 3px 3px 5px black;
+}
